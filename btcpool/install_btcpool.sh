@@ -55,7 +55,7 @@ make install
 
 # btcpool
 mkdir -p /work && cd /work
-git clone https://github.com/iblockin/btcpool.git
+git clone git@github.com:iblockin/btcpool.git 
 cd /work/btcpool
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
